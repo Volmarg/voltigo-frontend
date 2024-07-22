@@ -1,0 +1,18 @@
+{
+    "landingPage": {
+        "emailChange": {
+            "headline": {
+                "label": "You've requested E-Mail change"
+            },
+            "info": {
+                "value": "Click on the button below to confirm Your request."
+            },
+            "infoNewAddress": {
+                "value": "Your new address will be:"
+            },
+            "button": {
+                "label": "Change E-Mail"
+            }
+        }
+    }
+}

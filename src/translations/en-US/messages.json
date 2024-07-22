@@ -1,0 +1,159 @@
+{
+  "message": "Hello me!",
+  "messages": {
+    "internalServerError": "Internal server error",
+    "incompatibleBrowser": "Looks like there is Browser related issue. Maybe try using other browser? Please send us an E-Mail with steps to re-create + browser name & version",
+    "sessionExpired": "Your session has expired - You have been logged out",
+    "permission": {
+      "popup": "This page requires popup permission. Please allow the popups first, and then try again."
+    }
+  },
+  "views": {
+    "navbar": {
+      "main": {
+        "jobs": {
+          "label": "Jobs",
+          "children": {
+            "jobApplications": {
+              "label": "Applications"
+            },
+            "jobSearch": {
+              "label": "Search"
+            }
+          }
+        },
+        "email": {
+          "label": "E-Mails",
+          "children": {
+            "template": {
+              "builder": {
+                "label": "Template builder"
+              }
+            }
+          }
+        },
+        "about": "About",
+        "login": "Login",
+        "register": "Register",
+        "roleProtectedExample": "Role protected example"
+      },
+      "topBar": {
+        "userMenu": {
+          "logout": "Logout",
+          "settings": "Settings",
+          "timer": {
+            "timeLeft": {
+              "tippyMessage": "Time left till You'll get logget out"
+            }
+          }
+        }
+      }
+    },
+    "pageNameToPageTitle": {
+      "JobOfferAnalyseResult": "Job offer analyse result",
+      "JobOfferSearchResults": "Job offer search results",
+      "JobOfferSearchResultDetails": "Job offer search result details",
+      "JobOfferApplications": "Job offer applications",
+      "JobOfferSearch": "Job offer search",
+      "UserProfile": "User profile",
+      "UserSettings": "User settings",
+      "UserSecurity": "Security",
+      "UserAccount": "Account",
+      "UserBaseData": "Base data",
+      "UserFiles": "User files",
+      "Home": "Home",
+      "EmailTemplateBuilder": "Email template builder",
+      "DevelopmentPlayground": "Development playground",
+      "PaymentsOverview": "Payments overview",
+      "PointShopHistory": "Point shop history"
+    },
+    "profile": {
+      "panels":{
+        "settings": {
+          "title": "Settings"
+        }
+      }
+    },
+    "settings": {
+      "mainLabel": "Settings",
+      "buttons": {
+        "requestUserActivationMail": "Request user activation mail",
+        "removeAccount": "Remove account",
+        "changePassword": "Change password"
+      },
+      "requestUserActivationLink": {
+        "messages": {
+          "emailHaBeenSent": "E-mail has been sent"
+        }
+      }
+    },
+    "remove": {
+      "texts": {
+        "accountHasBeenRemoved": "Your account has been removed"
+      }
+    },
+    "activate": {
+      "texts": {
+        "invalidToken": "This token is invalid. Please log-in and retry activation.",
+        "accountHasBeenActivated": "Your account has been activated"
+      },
+      "buttons": {
+        "clickHereToActivate": "Click here to activate profile"
+      }
+    },
+    "changeEmail": {
+      "texts": {
+        "invalidToken": "This token is invalid. You need to request email change again."
+      },
+      "buttons": {
+        "clickHere": "Click here to change E-mail"
+      }
+    },
+    "resetPassword": {
+      "texts": {
+        "invalidToken": "This token is invalid. Please log-in and retry activation.",
+        "passwordHasBeenSet": "New password has been set. You will soon receive E-mail with new password. "
+      },
+      "buttons": {
+        "clickHereToActivate": "Click here to reset the password"
+      }
+    }
+  },
+  "components": {
+    "modal": {
+      "buttons": {
+        "ok": "Ok",
+        "cancel": "Cancel"
+      }
+    },
+    "form": {
+      "passwordWithPreview": {
+        "texts": {
+          "preview": "Preview",
+          "generate": "Generate password"
+        }
+      }
+    },
+    "security": {
+      "dialog": {
+        "remindPassword": {
+          "violations": {
+            "email": {
+              "syntheticallyInvalidEmailAddress": "This E-mail is synthetically invalid"
+            }
+          },
+          "messages": {
+            "mailWithPasswordResetLinkHasBeenSent": "Mail with password reset link has been sent"
+          },
+          "title": "Remind password",
+          "label": {
+            "email": "E-Mail address"
+          },
+          "buttons": {
+            "sendNewPassword": "Send new password"
+          }
+        }
+      }
+    }
+  }
+}

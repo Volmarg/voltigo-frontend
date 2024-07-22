@@ -1,0 +1,62 @@
+{
+    "pointShop": {
+        "about": {
+            "text": "This overview lists all of Your <b>points-based</b> payments."
+        },
+        "filter": {
+            "createdDate": {
+                "label": "Min. created date"
+            },
+            "accordion": {
+                "mainLabel": "Filters"
+            }
+        },
+        "other": {
+            "pointsAmount": {
+                "label": "You have: "
+            }
+        },
+        "singleCard": {
+            "foundsBalance": {
+                "label": "Founds balance"
+            },
+            "button": {
+                "details": {
+                    "label": "Details"
+                }
+            }
+        },
+        "modal": {
+            "details": {
+                "header": {
+                    "label": "Details"
+                },
+                "button": {
+                    "close": {
+                        "label": "Close"
+                    }
+                },
+                "type": {
+                    "emailSending": {
+                        "companyName": "Company name",
+                        "offerUrl": "Offer url"
+                    },
+                    "jobSearchTag": {
+                        "keywords": {
+                            "label": "Keywords"
+                        },
+                        "country": {
+                            "label": "Country"
+                        },
+                        "locationName": {
+                            "label": "Location name"
+                        },
+                        "maxDistance": {
+                            "label": "Max. distance"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

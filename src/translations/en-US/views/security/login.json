@@ -1,0 +1,13 @@
+{
+    "security": {
+        "login": {
+            "form": {
+                "button": {
+                    "submit": {
+                        "label": "Submit"
+                    }
+                }
+            }
+        }
+    }
+}

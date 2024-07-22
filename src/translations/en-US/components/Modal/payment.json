@@ -1,0 +1,33 @@
+{
+    "paymentModal": {
+        "header": {
+            "label": "Payments"
+        },
+        "buttons": {
+            "pay": {
+                "label": "PAY"
+            }
+        },
+        "confirm": {
+            "text": "I confirm my payment"
+        },
+        "info": {
+            "dontClose": {
+                "line1" : "Don't close this page / popup until the payment gets confirmed!",
+                "popupInfo": "In case You will leave the page / popup earlier, then You'll need to wait longer for the payment validation. <br/><br/> If there will be no confirmation, and You'll still be charged then don't renew the payment - it will be checked automatically.",
+                "line2": "",
+                "line3": ""
+            }
+        },
+        "disclaimers": {
+            "disclaimerItself": "Disclaimer!",
+            "notSavingRequest": {
+                "content": {
+                    "line1": "We are <b>NOT</b> saving Your request data in our database / system, this information might (and most likely are) saved on the payment provider servers - and there is nothing we can do about it.",
+                    "line2": "Please make sure to read the payment provider guides and rules.",
+                    "line3": "The only data that we store is the transaction response (we remove it after fixed amount of time), and the transaction id (this one is never removed)."
+                }
+            }
+        }
+    }
+}

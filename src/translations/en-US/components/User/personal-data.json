@@ -1,0 +1,17 @@
+{
+    "user": {
+        "personalData": {
+            "messages": {
+                "dataUsage": {
+                    "partial": {
+                        "keepInMind": "Keep in mind that any information in this section will / can be used in:",
+                        "usedInApplications" : "job applications (upon using template variables)",
+                        "usedInPayments": "3rd party payment transactions (sent only when it's required)",
+                        "emailing": "internal E-Mailing (notifications etc.)",
+                        "etc": "etc."
+                    }
+                }
+            }
+        }
+    }
+}

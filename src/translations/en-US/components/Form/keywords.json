@@ -1,0 +1,10 @@
+{
+    "form": {
+        "component": {
+            "keywords": {
+                "keywordToLong": "This keyword is too long, max. length per keyword is: {length} character/s",
+                "maxWords": "This keyword contains too many words. You can use max: {count} word/s"
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "landingPage": {
+        "activateAccount": {
+            "headline": {
+                "label": "Activate Your account"
+            },
+            "info": {
+                "value": "Click on the button below to gain full access to our services"
+            },
+            "button": {
+                "label": "Activate"
+            }
+        }
+    }
+}

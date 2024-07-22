@@ -1,0 +1,9 @@
+{
+    "warningModal": {
+        "buttons": {
+            "confirm": {
+                "label": "Confirm"
+            }
+        }
+    }
+}

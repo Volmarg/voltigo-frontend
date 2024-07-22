@@ -1,0 +1,11 @@
+{
+    "paymentProcess": {
+        "message": {
+            "couldNotHandleThePayment": "Could not handle the payment",
+            "currencyNotSupported": "Provided currency is not supported. Try selecting other one.",
+            "methodNotSupported": "This payment method is not supported, try with other one.",
+            "foundsUpdated": "Your founds state has been updated",
+            "foundsPending": "Pending"
+        }
+    }
+}

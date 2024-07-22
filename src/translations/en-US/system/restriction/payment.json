@@ -1,0 +1,9 @@
+{
+    "system": {
+        "restriction": {
+            "payment": {
+                "orderExceedsMax": "Tried to order product for more than current allowed max system-wide value. Your payment: {userPayment} ({userPaymentConverted}), max. {maxPayment}"
+            }
+        }
+    }
+}

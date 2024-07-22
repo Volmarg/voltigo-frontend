@@ -1,0 +1,36 @@
+{
+    "foundsModal": {
+        "information": {
+            "header": "Important information"
+        },
+        "state": {
+            "header": "Founds",
+            "partials": {
+                "currentBalance": "Current balance"
+            }
+        },
+        "info": {
+            "notSupportingAllCurrencies": "Keep in mind that while we support calculating fee from one currency to another, it doesn't mean that the selected Payment Tool supports given currency. If given currency is not supported then You'll be informed about that.",
+            "cantDetermineWhichCurrenciesAreSupported": "We cannot determine which currencies are supported by each tool, that's because for example PayPal provides additional payment ways, and these may vary from country to country."
+        },
+        "products": {
+            "price": {
+                "label": "Price"
+            },
+            "includingTax": {
+                "label": "Inc. Tax"
+            },
+            "description": {
+                "label": "Description"
+            },
+            "messages": {
+                "buy": {
+                    "label": "Click here to buy"
+                },
+                "disabled": {
+                    "label": "Temporarily not available."
+                }
+            }
+        }
+    }
+}

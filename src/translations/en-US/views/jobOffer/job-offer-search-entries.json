@@ -1,0 +1,72 @@
+{
+    "jobOfferSearchEntries": {
+        "message": {
+            "goToSearchPage": "Start Your first search: ",
+            "here": "here"
+        },
+        "singleEntry": {
+            "id": {
+                "label": "Id"
+            },
+            "created": {
+                "label": "Created"
+            },
+            "keywords": {
+                "label": "Keywords"
+            },
+            "targetArea": {
+                "label": "Country"
+            },
+            "location": {
+                "label": "Location"
+            },
+            "distance": {
+                "label": "Distance"
+            },
+            "helper": {
+                "open": {
+                    "text": "Open"
+                }
+            },
+            "validity": {
+                "daysTillRemoval": "Days until removal",
+                "status": {
+                    "expired": "0 (will be soon removed)"
+                }
+            },
+            "status": {
+                "PENDING": "Pending",
+                "WIP": "Running",
+                "DONE": "Done",
+                "PARTIALY_DONE": "Partially done",
+                "ERROR": "Error"
+            },
+            "offersFound": {
+                "label": "Job offers found"
+            }
+        },
+        "filters": {
+            "accordion": {
+                "mainLabel": "Filters"
+            },
+            "distance": {
+                "label": "Min. Distance"
+            },
+            "locationName": {
+                "label": "Location name"
+            },
+            "keywords": {
+                "label": "Searched keywords (OR rule is applied)"
+            },
+            "status": {
+                "label": "Status"
+            },
+            "area": {
+                "label": "Country"
+            },
+            "createdDate": {
+                "label": "Min. created date"
+            }
+        }
+    }
+}

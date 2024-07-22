@@ -1,0 +1,34 @@
+{
+    "navbar": {
+        "sidebar": {
+            "jobs": {
+                "children": {
+                    "searchResults": {
+                        "label": "Search results"
+                    }
+                }
+            },
+            "payments": {
+                "children": {
+                    "overview": {
+                        "label": "Overview"
+                    },
+                    "pointShop": {
+                        "label": "Point shop"
+                    }
+                },
+                "header": "Payments"
+            }
+        },
+        "topBar": {
+            "founds": {
+                "label": "Founds"
+            },
+            "children": {
+                "overview": {
+                    "label": "Overview"
+                }
+            }
+        }
+    }
+}

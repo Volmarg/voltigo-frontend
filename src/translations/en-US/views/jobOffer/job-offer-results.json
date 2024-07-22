@@ -1,0 +1,351 @@
+{
+    "searchResults": {
+        "button": {
+            "goToDetails": "Go to search results"
+        },
+        "text": {
+            "info": {
+                "1": "try changing the filters",
+                "2": "possibly no offers were found for Your search criteria at all"
+            }
+        },
+        "topBar": {
+            "viewSwitch": {
+                "selectAllVisible": {
+                    "selectAll": "Select all offers",
+                    "deselectAll": "Deselect all offers"
+                }
+            }
+        },
+        "selectedJobOffersBox": {
+            "infoText": "Selected job offers"
+        },
+        "sendMailBox": {
+            "infoText": "Send mails now"
+        },
+        "singleCard": {
+            "apply": {
+                "label": "Apply"
+            },
+            "serviceData": {
+                "header": "Offer source",
+                "target": {
+                    "label": "Target"
+                },
+                "homePage": {
+                    "label": "Home page",
+                    "button": {
+                        "clickHere": {
+                            "label": "Click here"
+                        }
+                    }
+                }
+            },
+            "jobOfferServiceThumbnail": {
+                "tippyContent": {
+                    "service": "Service",
+                    "goTo": "Go to the job offer service home page"
+                }
+            },
+            "email": {
+                "source": {
+                    "offer": "This E-Mail has been found directly in offer or on offer page",
+                    "other": "This E-Mail has been found in other source (company page, social media etc.) - might not be suitable",
+                    "info": {
+                        "certain": {
+                            "label": "Ok"
+                        },
+                        "uncertain": {
+                            "label": "Might be invalid"
+                        }
+                    }
+                }
+            },
+            "salary": {
+                "tippyContent": "Min. - Max. (Avg.) salary. <br/>(<b>???</b> means salary information was not provided)",
+                "avg": {
+                    "label": "Avg."
+                },
+                "value": {
+                    "unknown": "???"
+                }
+            },
+            "spokenLanguages": {
+                "label": "Spoken languages"
+            },
+            "options": {
+                "preview":"Check the offer",
+                "selectForApplication": {
+                    "added": "This offer has been added to the application list",
+                    "removed": "This offer has been removed from the application list",
+                    "allowed": "Select this checkbox to apply later to this offer",
+                    "notAllowed": "There is no E-Mail provided for this offer. Application is not possible"
+                }
+            },
+            "jobOfferPostedDateTime": {
+                "postedDaysAgo": "days ago",
+                "tippyInfo": "When the job offer was posted on the source service",
+                "postedAt": "Posted at:"
+            },
+            "jobOfferAppliedAtDateTime": {
+                "daysAgo": "days ago",
+                "tippyInfo": "When did You applied on this offer last time? (<i><small>It's possible to re-apply on same offer over time </small></i>)",
+                "appliedAt": "Applied at:"
+            },
+            "remoteWork": {
+                "possibleRemoteWork": "Possible remote work"
+            },
+            "company": {
+                "age": "Company Age (<i>years</i>)",
+                "employees": "Employees",
+                "website": "Website",
+                "linkedin": "Linkedin profile",
+                "search": {
+                    "linkedin": "Search for linkedin profile",
+                    "company": "Search for company",
+                    "label": {
+                        "value": "Search for data"
+                    }
+                }
+            }
+        },
+        "fullInfo": {
+            "tabs": {
+                "offerDetails": {
+                    "label": "Offer details",
+                    "data": {
+                        "description": {
+                            "headers": {
+                                "description": "Description"
+                            }
+                        },
+                        "details": {
+                            "headers": {
+                                "details": "Details"
+                            }
+                        }
+                    },
+                    "link": {
+                        "label": "Original offer link"
+                    }
+                },
+                "companyDetails": {
+                    "label": "Company details",
+                    "data": {
+                        "locations": {
+                            "headers": {
+                                "locations": "Locations"
+                            }
+                        },
+                        "details": {
+                            "headers": {
+                                "details": "Details"
+                            },
+                            "texts": {
+                                "name": "Name",
+                                "employees": "Employee",
+                                "age": "Age",
+                                "homePage": "Home page",
+                                "linkedin": "Linkedin profile"
+                            }
+                        },
+                        "relatedWebsites": {
+                            "headers": {
+                                "relatedWebsites": "Company related websites"
+                            }
+                        },
+                        "industries": {
+                            "label": "Industries"
+                        }
+                    }
+                },
+                "search": {
+                    "label": "Search",
+                    "google": {
+                        "label": "Search on Google"
+                    },
+                    "texts": {
+                        "homePage": "Home page",
+                        "linkedin": "Linkedin profile"
+                    }
+                }
+            }
+        }
+    },
+    "filters": {
+        "label": {
+            "main": "Filters"
+        },
+        "info": {
+          "keepInMind": {
+              "autoFilter": "Some filters are applied by default, resulting in less (or none) job offers being shown.",
+              "alreadyAppliedFilter": "The job offers which You applied for will be removed from the list."
+          }
+        },
+        "company": {
+            "label": "Company filters",
+            "ageOld": "Min. age-old",
+            "employees": "Min. employees count",
+            "countries": "Countries",
+            "cities": "Cities",
+            "includedNames": "Included company names",
+            "excludedNames": "Excluded company names",
+            "texts": {
+                "offers": "offer/s"
+            }
+        },
+        "keywords": {
+            "label": "Keywords filters"
+        },
+        "other": {
+            "label": "Other filters",
+            "onlyNewOffers": {
+                "label": {
+                    "value": "Only new offers"
+                },
+                "helpText": "It might happen that in current run offers from previous searches are also found. Turn this on if You only want to see new offers, never found in any search before. </br></br> This does not include job offers removed from expired search results."
+            }
+        },
+        "offer": {
+            "label": "Offer filters"
+        },
+        "selectAllVisible": {
+            "label": "Select all"
+        },
+        "includeWithoutPostedDate": {
+            "label": "Missing posted date allowed"
+        },
+        "mustBeRemote": {
+            "label": "Remote only"
+        },
+        "emailRequired": {
+            "label": "Email required"
+        },
+        "phoneRequired": {
+            "label": "Phone required"
+        },
+        "salaryRequired": {
+            "label": "Salary required"
+        },
+        "locationRequired": {
+            "label": "Location required"
+        },
+        "speakLanguageRequired": {
+            "label": "Language required"
+        },
+        "countryNameRequired": {
+            "label": "Country name required"
+        },
+        "employeeCountRequired": {
+            "label": "Employee count required"
+        },
+        "ageRequired": {
+            "label": "Age old required"
+        }
+    },
+    "offersCount": {
+        "accordion": {
+            "label": "Offers count"
+        },
+        "totallyFound": {
+            "label": "Number of all found offers",
+            "short": "All"
+        },
+        "filteredOut": {
+            "label": "Number of filtered, applied and blacklisted offers",
+            "short": "Filtered"
+        },
+        "visible": {
+            "label": "Number of visible offers",
+            "short": "Visible"
+        },
+        "applied": {
+            "label": "Number of offers that You've applied on",
+            "short": "Applied"
+        }
+    },
+    "legend": {
+        "label": "Legend",
+        "section": {
+            "recipient": {
+                "label": "Recipient"
+            },
+            "offerCount": {
+                "label": "Offers count"
+            }
+        }
+    },
+    "actionsPanel": {
+        "search": {
+            "label": "Search"
+        },
+        "getCsv": {
+            "allVisibleLabel": "Get all visible as CSV",
+            "csv": {
+                "headers": {
+                    "title": "Title (adjusted for displaying)",
+                    "url": "Url",
+                    "postedDate": "Posted date",
+                    "offerLanguage": "Offer language",
+                    "mentionedHumanLanguages": "Mentioned speaking languages",
+                    "email": "Contact E-Mail",
+                    "emailMarking": "E-Mail marking"
+                }
+            }
+        }
+    },
+    "inputs": {
+        "salary": {
+            "label": "Salary"
+        },
+        "language": {
+            "label": "Used spoken language"
+        },
+        "whenWasItPosted": {
+            "label": "When was the offer posted",
+            "weekAgo": {
+                "label": "Up to 1 week ago",
+                "value": "ONE_WEEK"
+            },
+            "twoWeeksAgo": {
+                "label": "Up to 2 weeks ago",
+                "value": "TWO_WEEK"
+            },
+            "oneMonthAgo": {
+                "label": "Up to 1 month ago",
+                "value": "ONE_MONTH"
+            }
+        }
+    },
+    "keywords": {
+        "filterRules": {
+            "all": {
+                "label": "AND",
+                "value": "AND",
+                "description": "All of the provided keywords must be present"
+            },
+            "atLeast": {
+                "label": "OR",
+                "value": "OR",
+                "description": "At least one of the provided keywords must be present"
+            }
+        },
+        "violations": {
+            "keywordsAndRuleRequired": "Both keywords and rule are required if any of these is set"
+        },
+        "mandatoryIncludedKeywords": {
+            "label": "Mandatory included keywords",
+            "help": "<p>Filter out job offers by checking if either its description or title contains given keywords.</p>"
+        },
+        "mandatoryIncludedKeywordsFilteringRule": {
+            "label": "Included filter rule"
+        },
+        "mandatoryExcludedKeywords": {
+            "label": "Mandatory excluded keywords",
+            "help": "<p>Filter out job offers by checking if either the description, or the title contains given keywords.</p> <br><br><p><b>Excluded</b> keywords are taken before <b>Included</b>, meaning that if result contains both, included and excluded words, the excluded ones will cause the result to be ignored.</p>"
+        },
+        "mandatoryExcludedKeywordsFilteringRule": {
+            "label": "Excluded filter rule"
+        }
+    }
+}

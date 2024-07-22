@@ -1,0 +1,7 @@
+{
+    "state": {
+        "disabled": {
+            "message": "Cannot perform this operation - system is temporarily disabled."
+        }
+    }
+}

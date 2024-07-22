@@ -1,0 +1,14 @@
+{
+    "emailBuilder": {
+        "modal": {
+            "generalRegulations": {
+                "header": "Regulations & Terms of use",
+                "button": {
+                    "close": {
+                        "text": "Confirm"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,2 @@
+export type OUTGOING_WEBSOCKET_MESSAGE_TYPE_SUCCESS = "success";
+export type OUTGOING_WEBSOCKET_MESSAGE_TYPE_FAILURE = "failure";

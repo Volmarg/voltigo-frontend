@@ -1,0 +1,11 @@
+{
+    "form": {
+        "currency": {
+            "allCurrencies": {
+                "targetCurrency": {
+                    "label": "Target currency"
+                }
+            }
+        }
+    }
+}

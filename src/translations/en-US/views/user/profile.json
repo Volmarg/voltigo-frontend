@@ -1,0 +1,133 @@
+{
+    "views": {
+        "user": {
+            "baseData": {
+                "importantInformation": {
+                    "accordion": {
+                        "header": "Important information"
+                    }
+                },
+                "information": {
+                    "updateWontAffect": "Keep in mind that updating the data will <b>NOT</b> update it in queued E-mails / applications!<br/> New data will be applied only from the moment it's being saved."
+                },
+                "nav": {
+                    "personalData": "Personal data",
+                    "emailAddress": "E-Mail",
+                    "profileImage": "Profile image"
+                },
+                "personalData": {
+                    "form": {
+                        "label": "Your personal data",
+                        "address": {
+                            "zip": {
+                                "label": "Zip Code"
+                            },
+                            "street": {
+                                "label": "Street"
+                            },
+                            "city": {
+                                "label": "City"
+                            },
+                            "homeNumber": {
+                                "label": "Home number. Example: 12c/24"
+                            },
+                            "country": {
+                                "label": "Country"
+                            }
+                        },
+                        "firstName": {
+                            "label": "First name"
+                        },
+                        "lastName": {
+                            "label": "Last name"
+                        },
+                        "submit": {
+                            "label": "Save"
+                        }
+                    }
+                },
+                "email": {
+                    "label": "E-Mail address",
+                    "information": {
+                        "requiresConfirmation": "E-Mail address is used to log-in to the system, and that's the only way to do that. Upon changing the address, confirmation mail will get sent on new mailbox. You need to click on confirmation link in it, in order to assign Your account to the new address. Until then You can log-in using Your current E-Mail address."
+                    },
+                    "changedWithSuccess": "E-Mail has been changed",
+                    "form": {
+                        "email": "E-Mail"
+                    }
+                }
+            },
+            "settings": {
+                "label": "User settings",
+                "nav": {
+                    "account": {
+                        "label": "Account"
+                    },
+                    "security": {
+                        "label": "Security"
+                    },
+                    "baseData": {
+                        "label": "Base data"
+                    },
+                    "files": {
+                        "label": "Files"
+                    }
+                },
+                "files": {
+                    "cv": {
+                        "label": "Curriculum Vitae (CV)"
+                    },
+                    "modal": {
+                        "header": {
+                            "label": "Your Cv"
+                        },
+                        "singleCvData": {
+                            "userBasedName": {
+                                "input": {
+                                    "label": "User based name"
+                                }
+                            },
+                            "actions": {
+                                "save": "Save",
+                                "delete": "Delete",
+                                "viewDownload": "View / Download"
+                            }
+                        }
+                    }
+                },
+                "security": {
+                    "changePassword": {
+                        "modal": {
+                            "header": {
+                                "label": "Change password"
+                            },
+                            "buttons": {
+                                "ok": "Change password"
+                            }
+                        }
+                    }
+                }
+            },
+            "profile": {
+                "accountRemoval": {
+                    "dialog": {
+                        "header": {
+                            "label": "Confirm account removal"
+                        },
+                        "body": {
+                            "message": {
+                                "areYouSure": "<b>Do You really want to remove Your account?</b>",
+                                "info": "Once You confirm there is no going back. Your account will be disabled, and be permanently removed in ~10-30 days (till then we still need the data for internal analytic purposes)."
+                            }
+                        },
+                        "buttons": {
+                            "confirm": {
+                                "label": "Remove my account"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

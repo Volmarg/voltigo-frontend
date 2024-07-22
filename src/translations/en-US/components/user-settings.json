@@ -1,0 +1,12 @@
+{
+    "userSettings": {
+        "personalDataModal": {
+            "buttons": {
+                "close": {
+                    "label": "Close"
+                }
+            },
+            "header": "Your personal data"
+        }
+    }
+}

@@ -1,0 +1,209 @@
+{
+    "builder": {
+        "mobile": {
+            "description": "We've detected that You are using mobile device. The template builder will <b>NOT</b> work fully properly on mobile devices!"
+        },
+        "about": {
+            "description1": {
+                "text": "Template describes how the E-Mail sent during job application process should look like. You can either create Your own layout, or pick one of our examples. We support not only static content of an E-Mail, but also dynamically generated data based on used so called <b>variables / placeholders</b>. If needed You can even generate <b>PDF</b> from the template and use it as CV."
+            }
+        },
+        "hints": {
+            "gdpr": {
+                "main": "<b>GDPR</b> - don't forget adding Your own data processing consent. Example: ",
+                "example": "I hereby give consent for my personal data to be processed by [company name] for the purpose of conducting recruitment for the position for which I am applying."
+            },
+            "header": {
+                "label": "Hints"
+            }
+        },
+        "modal": {
+            "builder": {
+                "title": "Builder",
+                "buttons": {
+                    "cancel": "Close"
+                }
+            },
+            "preview": {
+                "title": "Preview",
+                "buttons": {
+                    "cancel": "Close"
+                }
+            },
+            "infoText": {
+                "keepInMindSet": "<b>1.</b> Edited advanced options are saved/used even on simple mode. <br/><br/> <b>2.</b> Incorrect usage of advanced mode can result in E-Mail being broken - use it with caution."
+            }
+        },
+        "navigation": {
+            "buttons": {
+                "new": "New template",
+                "newPredefined": "New predefined template",
+                "guide": "Guide"
+            }
+        },
+        "noResults": {
+            "info": "You need to either create new template, or copy one of our examples from <b>predefined templates</b>"
+        },
+        "tour": {
+            "header": "How to",
+            "step": {
+                "leftSide": {
+                    "text": "<b>Left side</b> contains components that can be used to build the template"
+                },
+                "rightSide": {
+                    "text": "<b>Right side</b> contains configuration for components and email template itself"
+                },
+                "center": {
+                    "text": "<b>Central section</b> is the body of the template"
+                },
+                "topTooltip": {
+                    "text": "<b>Top tooltip</b> contains options to see preview, toggle complexity mode and undo changes"
+                },
+                "finalWords": {
+                    "text": "<b>Important:</b> each template must have <b>E-Mail subject</b> & <b>Template name</b> defined!"
+                }
+            }
+        }
+    },
+    "stats": {
+        "templatesAmount": "Templates amount",
+        "max": "Max."
+    },
+    "guide": {
+        "modal": {
+            "buttons": {
+                "close": {
+                    "label": "Close"
+                }
+            },
+            "header": "Guide",
+            "sections": {
+                "interface": {
+                    "header": "Interface explained",
+                    "description": {
+                        "part1": "This section explains what give interface elements are for."
+                    },
+                    "points": {
+                        "1": "Edit template name and E-Mail data (subject etc.),",
+                        "2": "Setting of currently select component",
+                        "3": "List of additional components to pick from",
+                        "4": "Draggable components -click and drag to the editor zone (10)",
+                        "5": "Save the templates",
+                        "6": "Switch between complexity modes (advanced mode has more options but it's a risk of breaking the template if used incorrectly)",
+                        "7": "Select between editing / preview (Pc / Mobile)",
+                        "8": "Toggle components bar visibility",
+                        "9": "Toggle settings bar visibility",
+                        "10": "Editor zone (place Your components here)",
+                        "11": "Undo & redo the recently made changes",
+                        "12": "Hover / Click to see more information"
+                    }
+                },
+                "addingComponent": {
+                    "header": "Adding component",
+                    "description": {
+                        "part1": "Each E-Mail template consist of multiple blocks called \"components\". Each of such blocks provides different functionality (buttons / links / images). In order to add a block to Your template, left-click on the block name (on left menu), and while holding the button drag the component on the central section of the editor.",
+                        "part2": "Components can be nested, like for example You can add \"Section\", with \"Columns\", and them add \"Image\", or \"Button\" to each of the sections (keep in mind that not all of the components can be nested, and there is limitation of how deep the nesting can go)."
+                    }
+                },
+                "movingRemovingComponent": {
+                    "header": "Moving & removing component",
+                    "description": "You can move the component around by holding the \"drag\" icon. If You want to remove component the click on the \"basket\" icon."
+                },
+                "dynamicContentVariables": {
+                    "header": "Dynamic content (variables)",
+                    "description": "Builder provides few dynamic variables which get replaced with real content upon sending the E-Mail. You can see what the variables will be turned into by clicking on the \"preview\". This functionality is available mostly for the \"Text\" component:"
+                },
+                "usingTemplate": {
+                    "header": "Using template",
+                    "description": "Prepared template can be used on \"job results\" page, the \"application wizard\". Template will be used to generate E-Mails for all selected offers."
+                }
+            }
+        }
+    },
+    "pdf": {
+        "modal": {
+            "information": {
+                "header": "Important information"
+            },
+            "header": {
+                "label": "Generate pdf (beta!)"
+            },
+            "warning": {
+                "text": "This is beta (test) functionality. The generated pdf might look incorrect - make sure that it's properly generated."
+            },
+            "description": {
+                "multiPage": "Convert the template into multiple A4 pages PDF (with working page urls, select-able text etc.)",
+                "single": "Convert the template into single PDF (links won't work etc.). The size of the PDF is never known as it depends on the content of the template. ",
+                "general": "Keep in mind that if the template contains variables (dynamic content), then only the <b>user</b> related variables will be generated properly. Variables such as <b>jobOffer</b> can only be used in job application process.",
+                "notAllowed": "You need to charge Your account at least one time, to be able to use this functionality (<b>generating PDF is free afterward!</b>) - that's required to prevent users from abusing this functionality.",
+                "notAllowedClickHereToCharge": "Click here to buy founds."
+            },
+            "button": {
+                "multiPage": "Multiple A4 pages",
+                "single": "Single page"
+            }
+        }
+    },
+    "sendTest": {
+        "modal": {
+            "button": {
+                "send": "Send E-Mail"
+            },
+            "header": "Send test E-Mail",
+            "content": {
+                "info": {
+                    "general": "If You want to check how the E-Mail created from this template will look like, click on the \"<b>Send E-Mail</b>\".",
+                    "recipient": {
+                        "label": "Recipient (Your E-Mail)"
+                    },
+                    "dailyLimit": {
+                        "label": "Your daily test E-Mails limit",
+                        "sent": "sent",
+                        "max": "max."
+                    },
+                    "disclaimer": {
+                        "footer": "Keep in mind that the E-Mail created for job application, will contain also extra section such as footer with logo. This will <b>not</b> affect how the content created from the template looks like."
+                    }
+                }
+            }
+        }
+    },
+    "list": {
+        "userTemplate": {
+            "header": "Your templates"
+        },
+        "predefinedTemplates": {
+            "header": "Predefined templates",
+            "info": {
+                "text": "Here are some example templates which You can use as base for Your own template. Click <b>use</b> to copy the template and start using it as Your own."
+            },
+            "warningAfterClone": "<b>Important</b>. Cloned template is Your to use, remember to change the E-Mail subject and the content."
+        },
+        "card": {
+            "buttons": {
+                "remove": {
+                    "label": "Remove"
+                },
+                "edit": {
+                    "label": "Edit"
+                },
+                "pdf": {
+                    "label": "Get PDF"
+                },
+                "clone": {
+                    "label": "Use"
+                },
+                "sendTest": {
+                    "label": "Send test E-mail"
+                }
+            },
+            "action": {
+                "renderExampleHtml": {
+                    "message": {
+                        "couldNotRender": "Could not render the template miniature. Your template will still be saved without it."
+                    }
+                }
+            }
+        }
+    }
+}

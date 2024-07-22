@@ -1,0 +1,57 @@
+{
+    "orderPaymentsOverview": {
+        "about": {
+            "text": "This overview lists all of Your <b>money-based</b> payments."
+        },
+        "singleEntry": {
+            "created": {
+                "label": "Created"
+            },
+            "totalWithoutTax": {
+                "label": "Total without tax"
+            },
+            "totalWithTax": {
+                "label": "Total with tax"
+            },
+            "products": {
+                "label": "Products"
+            },
+            "actions": {
+                "invoice": {
+                    "label": "Invoice"
+                }
+            }
+        },
+        "filters": {
+            "accordion": {
+                "mainLabel": "Filters"
+            },
+            "productNames": {
+                "label": "Product names"
+            },
+            "minTotalPrice": {
+                "label": "Total price min. (with tax)"
+            },
+            "maxTotalPrice": {
+                "label": "Total price max. (with tax)"
+            },
+            "status": {
+                "label": "Status",
+                "options": {
+                    "PENDING": "Pending",
+                    "SUCCESS": "Success",
+                    "SUCCESS_NOT_EQUAL_DEMANDED": "Success - not equal demanded",
+                    "IN_PROGRESS": "in progress",
+                    "ERROR": "Error",
+                    "UNKNOWN": "Unknown",
+                    "CANCELLED": "Cancelled",
+                    "RETURNED": "Returned",
+                    "TRIGGERED": "Triggered"
+                }
+            },
+            "createdDate": {
+                "label": "Min. created date"
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "components": {
+        "topBar": {
+            "strings": {
+                "applications": "applications"
+            }
+        }
+    },
+    "sort": {
+        "accordion": {
+            "mainLabel": "Sort"
+        },
+        "label": "Sort by",
+        "options": {
+            "dateDescending": {
+                "label": "Application date: ▼"
+            },
+            "dateAscending": {
+                "label": "Application date: ▲"
+            },
+            "companyNameDescending": {
+                "label": "Company name: ▼"
+            },
+            "companyNameAscending": {
+                "label": "Company name: ▲"
+            },
+            "jobTitleDescending": {
+                "label": "Job title: ▼"
+            },
+            "jobTitleAscending": {
+                "label": "Job title: ▲"
+            }
+        }
+    },
+    "filters": {
+        "accordion": {
+            "mainLabel": "Filters"
+        },
+        "companyName": {
+            "label": "Company name"
+        },
+        "jobTitle": {
+            "label": "Job title"
+        },
+        "email": {
+            "label": "Recipient E-Mail"
+        },
+        "dateFrom": {
+            "label": "Date from"
+        },
+        "dateTo": {
+            "label": "Date to"
+        }
+    },
+    "applications": {
+        "statuses": {
+            "PENDING": "Pending",
+            "SENT": "Sent"
+        },
+        "singleApplication": {
+            "hoverText": {
+                "goToJob": "Click to open the original job application page. <b>Keep in mind</b> - that over time, external url might no longer be reachable.",
+                "offerService": "Go to source service home page"
+            },
+            "buttonText": "Open offer",
+            "labels": {
+                "offerSource": "Offer source",
+                "appliedAt": "Applied at:",
+                "company": "Company:",
+                "service": "Service:",
+                "sentTo": "Sent to:",
+                "goToOffer": "Go to job offer"
+            },
+            "email": {
+                "hoverText": "<b>Sent to: </b>"
+            }
+        }
+    }
+}

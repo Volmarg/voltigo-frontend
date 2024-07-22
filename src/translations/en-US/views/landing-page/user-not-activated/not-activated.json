@@ -1,0 +1,15 @@
+{
+    "landingPage": {
+        "userNotActivated": {
+            "headline": {
+                "label": "You need to activate Your account first"
+            },
+            "info": {
+                "value": "If You no longer have valid activation link, then click below to receive one on E-Mail"
+            },
+            "button": {
+                "label": "Request activation link"
+            }
+        }
+    }
+}

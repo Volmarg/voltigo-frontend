@@ -1,0 +1,25 @@
+{
+    "components": {
+        "jobOfferSelectedOffersPreview": {
+            "header": {
+                "label": "Selected job offers"
+            },
+            "miniCard": {
+                "checkboxApply": {
+                    "tippy": {
+                        "info": {
+                            "text": "Cancel applying for this job offer"
+                        }
+                    }
+                },
+                "preview": {
+                    "tippy": {
+                        "info": {
+                            "text": "Preview job offer"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

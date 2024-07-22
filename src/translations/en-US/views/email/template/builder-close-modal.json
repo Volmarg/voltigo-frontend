@@ -1,0 +1,8 @@
+{
+    "builderCloseModal": {
+        "title": "Close E-mail builder",
+        "text": {
+            "confirm": "Do You really want to close the editor? <br/> Any unsaved changes will be lost!"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "landing-page": {
+        "common": {
+            "button": {
+                "loginPage": "Login page",
+                "homePage": "Home page"
+            }
+        }
+    }
+}

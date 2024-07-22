@@ -1,0 +1,59 @@
+{
+    "views": {
+        "register": {
+            "form": {
+                "username": {
+                    "label": "Username"
+                },
+                "password": {
+                    "label": "Password"
+                },
+                "confirmPassword": {
+                    "label": "Confirm Password"
+                },
+                "email": {
+                    "label": "E-mail"
+                },
+                "firstname": {
+                    "label": "Firstname"
+                },
+                "lastname": {
+                    "label": "Lastname"
+                },
+                "zip": {
+                    "label": "Zip Code"
+                },
+                "street": {
+                    "label": "Street"
+                },
+                "city": {
+                    "label": "City"
+                },
+                "homeNumber": {
+                    "label": "Home number. Example: 12c/24"
+                },
+                "submit": {
+                    "text": "Submit"
+                }
+            },
+            "messages": {
+                "violations": {
+                    "someFieldsAreIncorrect": "Some fields are incorrect",
+                    "password": {
+                        "passwordsAreNotTheSame": "Passwords are not the same!"
+                    }
+                }
+            },
+            "texts": {
+                "register": "Register",
+                "asteriskFieldsAreRequired": "Fields marked with this character are mandatory: ",
+                "alreadyGotAnAccount": "Already have an account?",
+                "homePage": "Home page",
+                "loginHere": "Login here",
+                "forgotPassword": "Forgot password?",
+                "clickHere": "Click here",
+                "youWillReceiveEmail": "You will soon receive an E-Mail with confirmation link"
+            }
+        }
+    }
+}

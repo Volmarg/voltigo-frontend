@@ -1,0 +1,87 @@
+{
+    "homeDashboard": {
+        "allPendingJobSearches": {
+            "label": "Pending job searches"
+        },
+        "recentFailedJobSearches": {
+            "label": "Failed job searches in last {hours} hour/s"
+        },
+        "pointsSpent": {
+            "label": "Points spent / points left"
+        },
+        "offersFoundToday": {
+            "label": "Unique job offers found today"
+        },
+        "applicationsSentToday": {
+            "label": "Applications sent today"
+        },
+        "common": {
+            "chart": {
+                "day": {
+                    "label": "Day: "
+                },
+                "message": {
+                    "noData": "No data",
+                    "noDataToDisplay": "No data to display"
+                }
+            }
+        },
+        "applicationsChart": {
+            "label": {
+                "main": "Your applications",
+                "tooltip": {
+                    "applicationsSent": "Applications sent"
+                }
+            },
+            "filter": {
+                "groupBy": {
+                    "label": "Group by",
+                    "options": {
+                        "day": "Day",
+                        "month": "Month"
+                    }
+                },
+                "year": {
+                    "label": "Year"
+                },
+                "month": {
+                    "label": "Month"
+                }
+            }
+        },
+        "uniqueOffersChart": {
+            "label": {
+                "main": "Unique offers found",
+                "tooltip": {
+                    "countOfFoundOffers": "Count of found offers"
+                }
+            },
+            "filter": {
+                "groupBy": {
+                    "label": "Group by",
+                    "options": {
+                        "day": "Day",
+                        "month": "Month"
+                    }
+                },
+                "year": {
+                    "label": "Year"
+                },
+                "month": {
+                    "label": "Month"
+                }
+            }
+        },
+        "tour": {
+            "header": "How to",
+            "step": {
+                "foundsStatus": {
+                    "text": "Click here to either buy or see Your founds"
+                },
+                "userMenu": {
+                    "text": "Click here to access the user-settings related menu"
+                }
+            }
+        }
+    }
+}

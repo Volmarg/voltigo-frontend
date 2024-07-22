@@ -1,0 +1,92 @@
+{
+    "jobOfferSearch": {
+        "page": {
+            "buttons": {
+                "examples": {
+                    "label": "Examples"
+                },
+                "continue": {
+                    "label": "Continue"
+                }
+            },
+            "modal": {
+                "example": {
+                    "header": "Examples",
+                    "info": "Screenshots presenting example configurations for few countries"
+                },
+                "advancedSetting": {
+                    "header": "Advanced settings",
+                    "buttons": {
+                        "ok": "Confirm & start",
+                        "cancel": "Cancel"
+                    },
+                    "limitSelect": {
+                        "label": "Job offers limit",
+                        "option": {
+                            "postfix": "job offer/s max.",
+                            "noLimit": "No limit"
+                        }
+                    },
+                    "info": "Decide how many job offer You want to get <b>at max.</b> (as stated before - You might get less than that!)."
+                }
+            },
+             "description": "Please provide necessary information to begin the search. For more details <b>Hover</b> over the bubble with question mark in it. <b>Keep in mind</b> that searching for job offers (and underlying data - location, company page etc.) takes time, and depending on how many offers there are it might vary from <b>15min</b> to even <b>few hours</b>. Once search is done You will be notified by <b>popup</b> and <b>E-Mail</b>.",
+             "limitReached": "You've reached limit of maximum active job searches. Please try again later once Your searches are done (no matter the success or failure)",
+             "locationBasedSearch": "The location based search is strictly limited by the external services. We recommend using <b>only</b> city names, as more complex search terms might result in wrong offers. It's <b>very important</b> to use city names only from available areas - the distance based search will get expanded over time. If you for example pick <b>Germany</b> then only location names from <b>Germany</b> will work. We <b>don't</b> check if the location You provide is valid, so make sure it is.",
+             "maxCalls": "Maximum active searching count: ",
+             "activeCalls": "Current active searching count: ",
+            "warning": {
+                "service unavailable": "This section is temporary unavailable",
+                "offline": "We are out for maintenance",
+                "quotaReached": "We are hitting heavy traffic right now. Please try again later."
+            },
+            "accordion": {
+                "information": {
+                    "header": "Important information"
+                }
+            },
+            "confirmation": {
+                "text": "I know the current regulations, and I'm aware that no job offers might be returned."
+            }
+        },
+        "filters": {
+            "jobSearchKeywords": {
+                "label": "Job related keywords. Max: ",
+                "help": "Returns the job offers whose title or description contains these keywords. Use the keywords in target country language!"
+            },
+            "targetArea": {
+                "label": "Country",
+                "help": "Select country in which You want to search the offers for."
+            },
+            "locationName": {
+                "label": "Address / location name",
+                "help": "<b>Preferably</b> city name, not all services support <b>Zip-code</b> etc. <br/><br/>Avoid using special characters like <b>-*/%&</b> etc., as using these might result in getting incorrect job offers. <br/><br/>Use the address / location name in target country language!"
+            },
+            "maxDistance": {
+                "label": "Max distance from location (km)",
+                "help": "The max distance from target location (<small>Add some error margin to it.</small>). <br/><br/> If provided, must be 0 or higher."
+            }
+        },
+        "violations": {
+            "distanceWithoutLocation": "Distance without <b>location</b> is not allowed",
+            "distanceBelowZero": "Distance must be either 0 or positive value"
+        },
+        "fee": {
+            "about": "Each <b>keyword</b> results for example in additional calls to the external <b>API</b>. We not only need to cover the <b>API</b> fees but also <b>licenses</b>, <b>server costs</b> etc."
+        }
+    },
+    "tour": {
+        "header": "How to",
+        "step": {
+            "importantInformation": {
+                "text": "Click here to check the most important information about the <b>job searching</b>"
+            },
+            "questionMark": {
+                "text": "Hover (click if on phone) over any question mark to find out how to use given field properly"
+            },
+            "startSearching": {
+                "text": "Click here to start searching for job offers"
+            }
+        }
+    }
+}

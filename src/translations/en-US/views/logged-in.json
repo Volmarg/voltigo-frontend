@@ -1,0 +1,18 @@
+{
+    "view": {
+        "loggedIn": {
+            "modal": {
+                "termsOfUse": {
+                    "header": {
+                        "label": "Terms of use / general information"
+                    },
+                    "buttons": {
+                        "close": {
+                            "label": "Confirm"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

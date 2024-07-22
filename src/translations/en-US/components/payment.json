@@ -1,0 +1,12 @@
+{
+    "payment": {
+        "error": {
+            "label": "Payment server responded with error: "
+        },
+        "pointsFee": {
+            "gemHover": {
+                "text": "Click here to charge your founds"
+            }
+        }
+    }
+}

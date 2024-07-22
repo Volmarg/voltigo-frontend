@@ -1,0 +1,49 @@
+version: "2.4"
+services:
+  voltigo_front:
+    container_name: voltigo-front-dev
+
+    # that's the only way to run the dev server and keep container alive
+    entrypoint: sh -c "npm cache clean --force && npm i && exec npm run dev"
+
+    # uncomment the line below to serve the build result for (for example for testing on mobile)
+    #entrypoint: sh -c "http-server ./dist --port=80"
+
+
+    # Start the container every time that pc is restarted
+    restart: always
+
+    # will automatically go to this folder when entering the container in interactive mode (exec -it bash)
+    working_dir: /var/www/html
+
+    # this is needed to let the docker access the HOST data, for example MYSQL or some HOST api
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    # without this the container starts and exits, this is a must to keep the container alive
+    tty: true
+
+    # image used to create this container
+    build:
+      context: ../
+      dockerfile: ./dockerfile
+
+    # port on which will this project be locally available
+    ports:
+      - "3001:80"
+
+    networks:
+      voltigo-front-dev:
+        ipv4_address: 10.8.0.6
+
+    volumes:
+      # map the local project root dir to the folder in docker
+      - ../../:/var/www/html
+
+networks:
+  voltigo-front-dev:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.8.0.0/16
+          gateway: 10.8.0.1

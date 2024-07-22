@@ -1,0 +1,106 @@
+{
+    "components": {
+        "jobOfferEmailWizard": {
+            "steps": {
+                "header": "Send E-Mails",
+                "navigation": {
+                    "step": {
+                        "label": "Step"
+                    },
+                    "left": {
+                        "tippyContent": "Back"
+                    },
+                    "right": {
+                        "tippyContent": "Next"
+                    }
+                },
+                "selectTemplate": {
+                    "header": "Select template",
+                    "noTemplate": {
+                        "needToCreateFirst": "You need to create template first.",
+                        "goToTemplateBuilder": "Go to E-Mail template builder: "
+                    },
+                    "partial": {
+                        "byClickingHere": "by clicking here"
+                    }
+                },
+                "previewTemplate": {
+                    "header": "Preview template",
+                    "subject": {
+                        "label": "Subject",
+                        "isNotSet": {
+                            "text": "Is not set - will be generated automatically"
+                        }
+                    },
+                    "body": {
+                        "label": "Body",
+                        "info": "All variables (besides user data) are dummy - proper data is set before sending."
+                    },
+                    "preview": {
+                        "label": "Show other",
+                        "checkWithOtherJobOffer": "Try with other job offer"
+                    },
+                    "showEmailPreview": {
+                        "label": "Show E-Mail preview"
+                    }
+                },
+                "selectAttachments": {
+                    "header": "Select attachments",
+                    "cv": {
+                        "multiselect": {
+                            "label": "Select Cv or leave it empty"
+                        },
+                        "uploadCv": {
+                            "label": "Upload Curriculum Vitae (CV)"
+                        }
+                    }
+                },
+                "confirmation": {
+                    "header": "Confirmation",
+                    "modal": {
+                        "templateHasChanged": {
+                            "cancelButton": "Close",
+                            "title": "E-Mail template has changed",
+                            "body": "You might want to go back and preview it before sending all the E-Mails. Click <b>send</b> again to continue sending."
+                        }
+                    },
+                    "labels": {
+                        "offerDetails": {
+                            "jobName": "Job name",
+                            "recipient": "Recipient",
+                            "company": "Company"
+                        },
+                        "selectedTemplate": {
+                            "label": "Selected template"
+                        },
+                        "attachments": {
+                            "label": "Attachments"
+                        },
+                        "offers": {
+                            "label": "Job offers",
+                            "info": "<b>Keep in mind</b>: after closing the modal, deselected offers will be removed from this list."
+                        },
+                        "buttons": {
+                            "send": {
+                                "label": "Send E-mails"
+                            },
+                            "info": {
+                                "text": "Sending might take a bit - please wait for the notification!"
+                            }
+                        },
+                        "confirmation": {
+                            "label": "I've checked the offers validity (recipients etc.)"
+                        }
+                    },
+                    "action": {
+                        "openOffer": "Check the offer",
+                        "closeOffer": "Close the offer"
+                    },
+                    "fee": {
+                        "information": "We are using both free and <b>paid</b> E-Mail handlers, furthermore we eventually want to move away from the free solutions so we also need to cover expenses for that."
+                    }
+                }
+            }
+        }
+    }
+}

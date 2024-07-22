@@ -1,0 +1,130 @@
+{
+    "jobService": {
+        "xing_com": {
+            "description": "XING is a Hamburg-based career-oriented social networking site, operated by New Work SE and owned mainly by Hubert Burda Media."
+        },
+        "monster": {
+            "description": "Monster is your source for jobs and career opportunities. Search for jobs, read career advice from Monster's job experts, and find hiring and recruiting."
+        },
+        "kimeta_de": {
+            "description": "Kimeta is one of the leading job search engines and is one of the top 5 commercial job portals in Germany."
+        },
+        "tideri_de" : {
+            "description": "Since 2015, we have been working to offer candidates the widest choice of jobs on one platform."
+        },
+        "kariera_group": {
+            "description": "Kariera Group is a dynamic corporate group operating in the European and Asian markets, with a vision to become the leading recruitment partner globally."
+        },
+        "jobware_de": {
+            "description": "Jobware is the job exchange for specialists and managers. Demanding companies of all sizes and industries find first-class employees through Jobware"
+        },
+        "indeed": {
+            "description": "Indeed is the #1 job site worldwide, with over 350M+ unique visitors per month. Indeed is available in more than 60 countries and 28 languages."
+        },
+        "aplikuj_pl": {
+            "description": "Aplikuj.pl - current and verified job offers. We publish over 41,000 job offers from 12,000 employers."
+        },
+        "fachpraca_pl": {
+            "description": "We publish only offers addressed to construction / production workers, sales forces, hotel and catering workers, logistics workers and basic services workers."
+        },
+        "goldenline_pl": {
+            "description": "Recruitment website offering recruitment and employer branding services. The website is visited by over 2 million users every month. "
+        },
+        "infopraca_pl": {
+            "description": "One of the largest online job exchanges in Poland, belonging to the Intercom World Wide S.L. capital group. based in Spain."
+        },
+        "jobs_pl": {
+            "description": "An online recruitment website that has been connecting employers and candidates for over 25 years, publishing over 11,000 job offers per month. advertisements from Poland and abroad."
+        },
+        "praca_pl": {
+            "description": "One of the largest job portals in Poland. Since 2004, have been supporting companies in online recruitment, enabling them to quickly reach a wide range of qualified candidates."
+        },
+        "pracuj_pl": {
+            "description": "Pracuj.pl is a leading Polish recruitment website. There you will find job offers for specialists and managers, as well as internships and traineeships."
+        },
+        "theprotocol_it": {
+            "description": "IT job offers board."
+        },
+        "gowork_pl": {
+            "description": "GoWork.pl is the largest website in Poland containing opinions about employers and job offers. GoWork has been operating on the market since 2005."
+        },
+        "interviewme_pl": {
+            "description": "InterviewMe is probably the fastest growing career advice website in Poland."
+        },
+        "adzuna_pl": {
+            "description": "Adzuna is a job offers search engine that collects hundreds of thousands of job offers from various websites and makes them available in one place."
+        },
+        "bankjob_de": {
+            "description": "Bankjob.de is a German niche job board advertising vacancies for jobs in the banking and financial services sector"
+        },
+        "stepstone_de": {
+            "description": "Freedom is finding the right job. Top employers. Free job search. More than 150000 jobs. At Stepstone everyone is free to find the right job."
+        },
+        "cadremploi_fr": {
+            "description": "Cadremploi.fr is France's No. 1 job board for executive positions. Cadremploi.fr is the trusted job board with a 17-year history of matching the right candidates to the right jobs."
+        },
+        "meinstadt_de": {
+            "description": "Job offers in Germany: Meinestadt.de's regional job market offers 387,744 vacancies and jobs in your area."
+        },
+        "stellenazeigen_de": {
+            "description": "Stellenanzeigen.de was founded in 1995 as one of the first online job exchanges in Germany and is now one of the best-known in Germany."
+        },
+        "jobsintown_de": {
+            "description": "Jobsintown.de operates as an online job portal, catering to various sectors including education, consulting, and office work."
+        },
+        "stellenanzeigen_de": {
+            "description": "Stellenanzeigen.de is one of the leading online job exchanges for specialists and executives in Germany."
+        },
+        "absolventa_de": {
+            "description": "ABSOLVENTA is the job market for students, graduates and young professionals."
+        },
+        "stelleonline_de": {
+            "description": "Online Recruiting at its best: stellenonline.de is suitable for all managerial levels in nearly all industries and professions."
+        },
+        "hellowork_com": {
+            "description": "HelloWork Group is France's leading digital player in employment, recruitment and training."
+        },
+        "pole-emploi_fr": {
+            "description": "France Travail / Pôle emploi - brings all employment services under a single body, with a single point of contact for registering, counseling, and training, placing and paying benefits to jobseekers"
+        },
+        "apec_fr": {
+            "description": "Apec is a leading player in executive employment in France, working with businesses to recruit middle managers and supporting executives throughout their careers."
+        },
+        "talent_com": {
+            "description": "We connect the right candidates with the right employers, anywhere in the world, by delivering a seamless job search and recruitment experience."
+        },
+        "elempleo_com": {
+            "description": "Elempleo.com, the job board with thousands of vacancies in Colombia. Register your resume, find and apply to the latest job offers."
+        },
+        "infoempleo_com": {
+            "description": "Infoempleo is one of the best employment portals in Spain. The perfect meeting point between candidates and companies."
+        },
+        "infojobs_net": {
+            "description": "InfoJobs is the first privately owned career network in Europe and one of the most popular sites on the Internet."
+        },
+        "jobbland.se": {
+            "description": "Jobbland is Sweden's fastest growing job search engine with over 200,000 visitors per month."
+        },
+        "jobbsafari_se": {
+            "description": "Provider of job advertisement services intended for job seekers and companies based in Sweden."
+        },
+        "jobbsafari_no": {
+            "description": "Provider of job advertisement services intended for job seekers and companies based in Norway."
+        },
+        "blocket_se": {
+            "description": "Sweden's marketplace with over 5 million items (including job offers)."
+        },
+        "appcast_io": {
+            "description": "AppcastOne is a unified recruitment marketing platform that harnesses programmatic, search, social, and traditional media to optimize candidate sourcing for the world's top employers."
+        },
+        "karrierestart_no": {
+            "description": "KarriereStart.no - Vacancies, company presentations, trainee programs and career guide. The start page for jobs and careers in Norway."
+        },
+        "thehub_io": {
+            "description": "The Hub is the go-to platform for hiring among startups in The Nordics."
+        },
+        "default": {
+            "description": "We don't have any information about this offer source in our database yet!"
+        }
+    }
+}

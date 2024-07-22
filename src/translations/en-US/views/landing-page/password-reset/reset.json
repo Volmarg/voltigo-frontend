@@ -1,0 +1,15 @@
+{
+    "landingPage": {
+        "passwordReset": {
+            "headline": {
+                "label": "You've requested password reset"
+            },
+            "info": {
+                "value": "Click on the button below and You will get E-Mail with new password."
+            },
+            "button": {
+                "label": "Reset"
+            }
+        }
+    }
+}

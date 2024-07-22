@@ -1,0 +1,13 @@
+{
+    "page": {
+        "components": {
+            "about": {
+                "accordion": {
+                    "header": {
+                        "label": "About"
+                    }
+                }
+            }
+        }
+    }
+}

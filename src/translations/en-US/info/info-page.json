@@ -1,0 +1,227 @@
+{
+    "infoPage": {
+        "modal": {
+            "credits": {
+                "header": "Credits",
+                "description": "Special thanks to services and people - providing content used in this project",
+                "description2": "If we use some of Your resources, and You are not listed here, or You require direct link in here, then write to us (see footer - contact section).",
+                "button": {
+                    "close": {
+                        "label": "Close"
+                    }
+                }
+            },
+            "roadmap": {
+                "header": "Roadmap",
+                "description": "Future plans for the project",
+                "button": {
+                    "close": {
+                        "label": "Close"
+                    }
+                },
+                "data": {
+                    "1": {
+                        "title": "Better location filtering",
+                        "description": "We know that current location-based filtering is far from perfect. We got some solution prepared for this, but we currently cannot activate it as it will sadly generate way to high expense on the beginning of the project."
+                    },
+                    "2": {
+                        "title": "More data",
+                        "description": "We've already planned out some additional data to display for the offers like for example 'company rating', this will however be added over time."
+                    },
+                    "3": {
+                        "title": "More countries support",
+                        "description": "We launch with only few countries being initially supported, but we plan to expand to more Europe based countries."
+                    },
+                    "4": {
+                        "title": "Checking if E-Mail was opened",
+                        "description": "That's of course not fully possible to track, but for most recipients it should be possible to check this out. That's already prepared but is not getting activated on initial launch of the project."
+                    },
+                    "5": {
+                        "title": "Saving search patterns",
+                        "description": "We plan to let user save their most used search criteria, and let them reuse them for easier job searching."
+                    },
+                    "6": {
+                        "title": "More E-Mail templates",
+                        "description": "For now, we've supplied only few simple templates, but over time we will and some more of them."
+                    },
+                    "7": {
+                        "title": "More E-Mails",
+                        "description": "We got few ideas how to supply E-Mails for offers which are still missing the contact data."
+                    },
+                    "8": {
+                        "title": "Reducing the sad bugs",
+                        "description": "We do our best to make everything work as good as it can be, but let's be real, we just launched, and we might need to fix things!"
+                    }
+                },
+                "dataAnnotation": "And many more to come, that's at least the official plan for now."
+            }
+        },
+        "menu": {
+            "home": {
+                "label": "Home"
+            },
+            "aboutUs": {
+                "label": "About"
+            },
+            "whatWeOffer": {
+                "label": "Offer"
+            },
+            "pricing": {
+                "label": "Pricing"
+            },
+            "faq": {
+                "label": "FAQ"
+            },
+            "contact": {
+                "label": "Contact"
+            },
+            "credits": {
+                "label": "Credits"
+            },
+            "roadmap": {
+                "label": "Roadmap"
+            },
+            "login": {
+                "label": "Login"
+            }
+        },
+        "footerSection": {
+            "readyToGetStarted": "Ready to get started?",
+            "goHere": "Go here",
+            "menu": {
+                "header": "Menu"
+            },
+            "contact": {
+                "header": "Contact",
+                "emails": {
+                    "support": {
+                        "label": "Support"
+                    },
+                    "bugs": {
+                        "label": "Bugs"
+                    },
+                    "other": {
+                        "label": "Other"
+                    },
+                    "ban": {
+                        "label": "Ban"
+                    },
+                    "creditsResources": {
+                        "label": "Credits & Resources"
+                    }
+                }
+            }
+        },
+        "section": {
+            "aboutUs": {
+                "header": "About us",
+                "paragraphs": {
+                    "one": "“This project came up to live years ago as an idea of saving time needed for handling job offers and applications process. It became very frustrating to go over every single\n                    theoretically matching offer, reading it, analysing, picking few that are suitable just to\n                    <b>barely</b> get any feedback at all.\n                    Over time I learned how badly the recruitment / application process looks like, and I've decided to find a way to save time spent on it“",
+                    "two": "“Originally this tool was designed for myself, and had very limited options, but after years of experience I decided to turn it into globally accessible tool.\n                    Shaping this project takes, a lot of time and there is still great amount of things that can get better, but it's already usable in it's current form.“",
+                    "three": "“I myself am the very first person who ever used this tool (in its early stages - years ago), and it did help me find my current job, where I've stayed for years.“"
+                }
+            },
+            "countries": {
+                "header": "Find job offers in multiple countries",
+                "text": "Currently supported countries (marked blue)",
+                "caption": "Hover over a colored area to see its name"
+            },
+            "faq": {
+                "header": "FAQ",
+                "text": "Answers to the questions & doubts that You might have",
+                "questions": {
+                    "1": {
+                        "question": "The functionality looks limited...",
+                        "answer": "Trust me, that's because You only see the interface, there are several constantly maintained projects that handle all Your requests, alongside with backup and monitoring systems. <br/><br/>This project has only one goal and everything is focused around that, for more see the <b>about us</b> section above. <br/><br/>Other than that we plan to expand our functionality over time (providing companies rating results, employees count etc. - this would however generate to many expenses at this moment, we already have the functionality for some of these things prepared, but for now it must remain disabled)."
+                    },
+                    "2": {
+                        "question": "The returned offers are not what I expected...",
+                        "answer": "There is nothing we can really do about it. First of all it depends on Your search keywords which must be as much strict as they can, secondly You cannot expect search keywords such as <b>good paid It job</b> to return anything, rather search for <b>Java developer</b> instead, lastly we work with external providers and we are strictly limited to what they send to us.<br/><br/> We already prefilter everything we receive and from that we do our best to deliver You the most suitable offers."
+                    },
+                    "3": {
+                        "question": "Are recipient E-Mails valid?",
+                        "answer": "Most of them, are. We filter out most of the unreachable / invalid addresses, however some of the mailboxes are impossible to test due to more complex internal rules or firewalls. While E-Mail are synthetically valid and are reachable, it's still up to You to makes sure that recipient E-Mail looks valid. We are on early stage of providing the most valid E-Mails we can. <br/><br/> It will never be possible to get 100% accurate E-Mails, because we obtain these also from external sources, there are no recruiters or direct companies inputs in here."
+                    },
+                    "4": {
+                        "question": "I can't directly apply to some offers through Your system...",
+                        "answer": "Not all the offers include contact E-Mails, and in such case we try to provide them on our own (as mentioned not all of them will be valid). There are / will be also cases where companies themselves will either wish to be excluded from being E-Mailed by our tool or they might just exclude communication with certain users, and because of that we must remove some offers from the results."
+                    },
+                    "5": {
+                        "question": "Can i get the confirmation that my E-Mail was opened?",
+                        "answer": "In general <b>not now</b>, we have some logic briefly prepared for that and we will activate it in future, but even with that it all depends on recipient mailbox and security policy - he might simply block the open confirmation."
+                    },
+                    "6": {
+                        "question": "I've searched for offers with reasonable keywords / location etc. but i don't get anything useful...",
+                        "answer": "We can't do anything about that. First of all our providers get the offers from any boards platforms, and these very often will show You literally any results if no matching offers were found. <br/> <br/> It could also happen that You are looking for offers in smaller cities where there is literally no data present for given criteria."
+                    },
+                    "7": {
+                        "question": "I've searched for same thing twice, got different results - why?",
+                        "answer": "It's like with normal offers pages - sometimes You get different result. "
+                    }
+                }
+            },
+            "home": {
+                "headerUpper": "Apply for job quicker than before",
+                "headerLower": "Voltigo",
+                "description": "We know how long job searching can take, that's why we came up with our solution.",
+                "caption": "Project interface screenshots"
+            },
+            "info": {
+                "first": {
+                    "header": "We skip the middle man",
+                    "desc": "Linkedin and other platforms are great and we have no doubt about that. But sometimes You just don't want to keep spending time on endless talks, but rather just send E-mail directly to company, and with us You can do that."
+                },
+                "second": {
+                    "header": "Get most of the offers in one place",
+                    "desc": "We get the offers from multiple external provides, and we grow alongside with them. The more they grow, the more offers we have for You, so pick them up and apply to all of them with just one click!"
+                }
+            },
+            "payment": {
+                "header": "Chargeable founds",
+                "desc": "We use internal, chargeable currency, which You spend whenever You need to",
+                "image": {
+                    "info": {
+                        "justPreviewPrices": "Prices are not real / final."
+                    }
+                },
+                "caption": "Payment interface screenshot (prices are exemplary)"
+            },
+            "whatWeOffer": {
+                "header": "What we offer",
+                "desc": "This is what we provide",
+                "slider": {
+                    "1": {
+                        "header": "Job offers search",
+                        "desc": "We provide You job offers based on Your search criteria"
+                    },
+                    "2": {
+                        "header": "E-Mail template builder",
+                        "desc": "You can create Your reusable E-Mail template"
+                    },
+                    "3": {
+                        "header": "Bulk applications",
+                        "desc": "Send all Your applications in convenient way with just one click"
+                    }
+                }
+            },
+            "whatWeDoNotOffer": {
+                "header": "What we don't offer",
+                "desc": "Just to clarify - what we don't provide",
+                "slider": {
+                    "1": {
+                        "header": "Direct contact with company / recruiter",
+                        "desc": "We only provide E-Mail based communication - it's not always going to be recruiter on the other side"
+                    },
+                    "2": {
+                        "header": "Aggregation service",
+                        "desc": "We don't just store all the offers that there are, we provide the only on demand"
+                    },
+                    "3": {
+                        "header": "Support 24/7",
+                        "desc": "There is no way we can provide that in current state of our growth"
+                    }
+                }
+            }
+        }
+    }
+}

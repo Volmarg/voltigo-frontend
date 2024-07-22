@@ -1,0 +1,26 @@
+{
+    "ban": {
+        "nav": {
+            "tryAgain": "Try again"
+        },
+        "headline": "You have been banned",
+        "description": "Our system has detected undesired activity. <br/> Either You did something wrong, or there is a bot in Your network.",
+        "banReason": "Ban reason",
+        "bannedUntil": "Banned until",
+        "banValidity": {
+            "perma": "Permanently, or until investigated and unlocked",
+            "unknown": "Unknown, yet to be decided"
+        },
+        "type": {
+            "user": {
+                "description": "Suspicious user activity"
+            },
+            "ip": {
+                "description": "Suspicious activity in Your network"
+            },
+            "unknown": {
+                "description": "Unknown reason - safety ban has been placed and must be investigated"
+            }
+        }
+    }
+}

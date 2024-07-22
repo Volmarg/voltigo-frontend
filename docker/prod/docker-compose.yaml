@@ -1,0 +1,46 @@
+version: "2.4"
+services:
+  voltigo_front:
+    container_name: voltigo-front-prod
+
+    # that's the only way to run the prod server and keep container alive
+    ## Installing dev dependencies here on purpose, as vite is needed to build assets,
+    ## In real world assets woul be built on dev, but project goes open-source and it's going to be easier for ppl
+    ### Also that's a bit of hack
+    entrypoint: sh -c "npm cache clean --force && npm i --also=dev && ./prepare-prod.sh && http-server ./dist --port=80"
+
+    # Start the container every time that pc is restarted
+    restart: always
+
+    # will automatically go to this folder when entering the container in interactive mode (exec -it bash)
+    working_dir: /var/www/html
+
+    # this is needed to let the docker access the HOST data, for example MYSQL or some HOST api
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    # without this the container starts and exits, this is a must to keep the container alive
+    tty: true
+
+    # image used to create this container
+    build:
+      context: ../
+      dockerfile: ./dockerfile
+
+    # port on which will this project be locally available
+    ports:
+      - "3001:80"
+    networks:
+      voltigo-front-prod:
+        ipv4_address: 10.9.0.6
+    volumes:
+      # map the local project root dir to the folder in docker
+      - ../../:/var/www/html
+
+networks:
+  voltigo-front-prod:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.9.0.0/16
+          gateway: 10.9.0.1
