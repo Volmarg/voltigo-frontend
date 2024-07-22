@@ -122,10 +122,10 @@ Well did this approach worked at all? It did! I'm still in the same job which I 
 
 ### GUI
 <div align="center">
-<img src="github/img/preview/interface-1.jpg" width="70%"/>
-<img src="github/img/preview/interface-2.jpg" width="70%"/>
-<img src="github/img/preview/interface-3.jpg" width="70%"/>
-<img src="github/img/preview/interface-4.jpg" width="70%"/>
+<img src="github/img/preview/interface-1.jpg" width="90%"/>
+<img src="github/img/preview/interface-2.jpg" width="90%"/>
+<img src="github/img/preview/interface-3.jpg" width="90%"/>
+<img src="github/img/preview/interface-4.jpg" width="90%"/>
 </div>
 
 ### Workflow
@@ -153,8 +153,6 @@ Well did this approach worked at all? It did! I'm still in the same job which I 
 
 </details>
 <br>
-
-
 <details><summary><h3 style="display: inline; cursor: pointer;">Creating account</h3></summary><br>
 
 *Assuming here that all necessary projects are running and are by now properly installed/configured* 
@@ -170,16 +168,12 @@ Well did this approach worked at all? It did! I'm still in the same job which I 
 
 </details>
 <br>
-
-
 <details><summary><h3 style="display: inline; cursor: pointer;">The target audience</h3></summary><br>
 
 - any kind of people (at least the ones who can use pc or phone), but mostly the ones who are lazy and annoyed with recruitment process, or just want to save time,
 
 </details>
 <br>
-
-
 <details><summary><h3 style="display: inline; cursor: pointer;">What about the Linkedin, job boards etc.</h3></summary><br>
 
 They exist, and I'm fully aware of that, none of these solve the problem, because all of them are, how should I write *"trying to go the standard way, little hello, email, some talking, some form etc."*.
@@ -192,8 +186,6 @@ You just configure the bot and it goes in cycle over and over again (most likely
 
 </details>
 <br>
-
-
 <details><summary><h3 style="display: inline; cursor: pointer;">Email sources</h3></summary><br>
 
 The emails used for job applications come from 2 main sources:
@@ -210,8 +202,6 @@ The emails used for job applications come from 2 main sources:
 
 </details>
 <br>
-
-
 <details><summary><h3 style="display: inline; cursor: pointer;">Company data sources</h3></summary><br>
 
 The extra data for job offer comes from:
