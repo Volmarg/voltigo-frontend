@@ -131,7 +131,7 @@ Well did this approach worked at all? It did! I'm still in the same job which I 
 ### Workflow
 
 <div align="center">
-<img src="github/img/workflow-diagram.png" width="70%"/>
+<img src="github/img/workflow-diagram.png" width="90%"/>
 </div>
 
 <br>
@@ -152,7 +152,6 @@ Well did this approach worked at all? It did! I'm still in the same job which I 
   - the project is now reachable under : `10.9.0.6` (paste that in Your browser)
 
 </details>
-<br>
 <details><summary><h3 style="display: inline; cursor: pointer;">Creating account</h3></summary><br>
 
 *Assuming here that all necessary projects are running and are by now properly installed/configured* 
@@ -167,13 +166,11 @@ Well did this approach worked at all? It did! I'm still in the same job which I 
 - now You can use **Voltigo**,
 
 </details>
-<br>
 <details><summary><h3 style="display: inline; cursor: pointer;">The target audience</h3></summary><br>
 
 - any kind of people (at least the ones who can use pc or phone), but mostly the ones who are lazy and annoyed with recruitment process, or just want to save time,
 
 </details>
-<br>
 <details><summary><h3 style="display: inline; cursor: pointer;">What about the Linkedin, job boards etc.</h3></summary><br>
 
 They exist, and I'm fully aware of that, none of these solve the problem, because all of them are, how should I write *"trying to go the standard way, little hello, email, some talking, some form etc."*.
@@ -185,7 +182,6 @@ Solutions such as mine are there, but these work differently, those are for exam
 You just configure the bot and it goes in cycle over and over again (most likely clicking on apply buttons in background as well).
 
 </details>
-<br>
 <details><summary><h3 style="display: inline; cursor: pointer;">Email sources</h3></summary><br>
 
 The emails used for job applications come from 2 main sources:
@@ -201,7 +197,6 @@ The emails used for job applications come from 2 main sources:
 *In the end around 60-80% of job offers have E-mail address attached to it.*
 
 </details>
-<br>
 <details><summary><h3 style="display: inline; cursor: pointer;">Company data sources</h3></summary><br>
 
 The extra data for job offer comes from:
