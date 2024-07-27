@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Solve the JavaScript heap out of memory
+export NODE_OPTIONS='--max-old-space-size=4096'
 ENV_MODE=$1
 
 # Prints an information block (aka header)
