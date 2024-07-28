@@ -48,9 +48,10 @@ Using any projects for personal gain is <b>STRICTLY FORBIDDEN</b>, You can howev
 - **Login**: `demo-user@voltigo.pl`
 - **Password**: `demo`
 - **Other**:
-  - **MessageHub** demo url: http://message-hub.voltigo.pl/login
-  - **Login**: `admin`
-  - **Password**: `admin`
+  - **MessageHub** 
+    - **Url**: http://message-hub.voltigo.pl/login
+    - **Login**: `admin`
+    - **Password**: `admin`
 
 # Underlying projects
 
