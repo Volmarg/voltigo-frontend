@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <WarningBlock class="bg-white" v-if="isDemo">
+    <WarningBlock class="bg-white mb-5" v-if="isDemo">
       <div class="text flex justify-center flex-col">
         <p class="font-bold text-orange-900 text-xl">
           <span>{{$t('demo.sectionInfo.header')}}</span>
