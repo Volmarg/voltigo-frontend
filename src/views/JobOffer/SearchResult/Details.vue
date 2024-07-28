@@ -129,6 +129,7 @@ import FixedTopBottom          from "@/components/Ui/Navigation/QuickTopBottom/F
 import MediumButtonWithIcon    from "@/components/Navigation/Button/MediumButtonWithIcon.vue";
 import SelectedOffersListModal from "@/views/JobOffer/SearchResult/Details/Components/SelectedOffersListModal.vue";
 
+import DemoAwareMixin              from "@/mixins/Awarness/DemoAwareMixin.vue";
 import RightSidebarHandlerMixin    from "@/views/JobOffer/SearchResult/Details/Mixin/RightSidebarHandlerMixin.vue";
 import JobOffersProviderMixin      from "@/views/JobOffer/SearchResult/Details/Mixin/JobOffersProviderMixin.vue";
 import OffersSelectionHandlerMixin from "@/views/JobOffer/SearchResult/Details/Mixin/OffersSelectionHandlerMixin.vue";
@@ -220,6 +221,7 @@ export default {
   ],
   mixins: [
     SearchMixin,
+    DemoAwareMixin,
     PaginationMixin,
     MiniCardsHandlerMixin,
     JobOffersProviderMixin,
@@ -480,9 +482,15 @@ export default {
       this.$view.scrollToElement(this.$refs.actionsPanel.$el);
     },
   },
-  async created(): Promise<void> {
+  async mounted(): Promise<void> {
     await this.getJobOffers(true);
     this.filterShownSingleCardsOnPage(this.config.pagination.normalCards.currentPage, this.config.pagination.normalCards.resultPerPage);
+
+    if (this.isDemo) {
+      await this.getJobOffers(false);
+      this.filterShownSingleCardsOnPage(this.config.pagination.normalCards.currentPage, this.config.pagination.normalCards.resultPerPage);
+    }
+
     this.loadOffersSelection();
     this.applicationWizardOffersStore = applicationWizardOffersStore();
   },

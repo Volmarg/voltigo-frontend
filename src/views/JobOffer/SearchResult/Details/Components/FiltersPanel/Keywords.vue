@@ -78,6 +78,7 @@ import ArrayTypeProcessor  from "@/scripts/Core/Services/TypesProcessors/ArrayTy
 
 import {KEYWORD_FILTERING_RULE} from "@/views/JobOffer/SearchResult/Details/Components/FiltersPanel/Enum/FilteringRuleEnum";
 
+import DemoAwareMixin      from "@/mixins/Awarness/DemoAwareMixin.vue";
 import ResponsiveVarsMixin from "@/mixins/Responsive/ResponsiveVarsMixin.vue";
 
 /**
@@ -154,6 +155,7 @@ export default {
     }
   },
   mixins: [
+    DemoAwareMixin,
     VuelidateHandler,
     ResponsiveVarsMixin
   ],
@@ -206,15 +208,31 @@ export default {
   },
   watch: {
     forcedMandatoryIncludedKeywordsFilteringRule() {
+      if (this.isDemo) {
+        return;
+      }
+
       this.mandatoryIncludedKeywordsFilteringRule = this.forcedMandatoryIncludedKeywordsFilteringRule;
     },
     forcedMandatoryExcludedKeywordsFilteringRule() {
+      if (this.isDemo) {
+        return;
+      }
+
       this.mandatoryExcludedKeywordsFilteringRule = this.forcedMandatoryExcludedKeywordsFilteringRule;
     },
     forcedExcludedKeywords() {
+      if (this.isDemo) {
+        return;
+      }
+
       this.mandatoryExcludedKeywords = this.forcedExcludedKeywords;
     },
     forcedMandatoryIncludedKeywords() {
+      if (this.isDemo) {
+        return;
+      }
+
       this.mandatoryIncludedKeywords = this.forcedMandatoryIncludedKeywords;
     },
   }
