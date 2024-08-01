@@ -17,6 +17,10 @@
                 "label": "About us",
                 "clickText": "click here"
             },
+            "githubRepo": {
+                "label": "GitHub repository",
+                "clickText": "click here"
+            },
             "newUser": "New user?",
             "registerHere": "Register",
             "belowWelcomeToPlatform": "In order to gain full access to our platform You first need to log-in. If You don't have account yet, then You can\n              create one by clicking <b>Register</b> and by providing Your data. Once You finish the registration process\n              You will receive an activation E-Mail.",

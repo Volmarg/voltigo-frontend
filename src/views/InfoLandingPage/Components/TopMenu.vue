@@ -93,6 +93,21 @@
                   {{ $t('infoPage.menu.roadmap.label') }}
                 </a></li>
                 <LoginLink v-if="!isTabletBreakingPoint"/>
+
+                <li class="flex justify-center">
+                  <a
+                      href="https://github.com/Volmarg/voltigo-frontend"
+                      target="_blank"
+                  >
+                    <GitHub
+                        :width="githubWidthAndHeight"
+                        :height="githubWidthAndHeight"
+                        class="mt-2.5 hover:opacity-60"
+                        v-if="isDemo && !isHamburgerMenuVisible"
+                    />
+                  </a>
+                </li>
+
               </ul>
             </div>
 
@@ -106,27 +121,32 @@
 <script lang="ts">
 import SectionNavigationMixin from "@/views/InfoLandingPage/Components/Mixin/SectionNavigationMixin.vue";
 import ResponsiveVarsMixin    from "@/mixins/Responsive/ResponsiveVarsMixin.vue";
+import DemoAwareMixin         from "@/mixins/Awarness/DemoAwareMixin.vue";
 
 import LoginLink from "@/views/InfoLandingPage/Components/TopMenu/LoginLink.vue";
 
 import {ComponentData} from "@/scripts/Vue/Types/Components/types";
+import GitHub from "@/components/Ui/Icons/Svg/GitHub.vue";
 
 export default {
   data(): ComponentData {
     return {
+      githubWidthAndHeight: 26,
       isCreditsModalVisible: false,
       isHamburgerMenuVisible: false,
     }
   },
   mixins: [
     SectionNavigationMixin,
-    ResponsiveVarsMixin
+    ResponsiveVarsMixin,
+    DemoAwareMixin
   ],
   emits: [
     "showCreditsModal",
     "showRoadmapModal"
   ],
   components: {
+    GitHub,
     LoginLink
   },
   methods: {

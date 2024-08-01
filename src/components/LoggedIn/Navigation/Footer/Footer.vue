@@ -11,20 +11,28 @@
 
       <LinksMenu />
       <Copyright />
+      <GithubRepo v-if="isDemo" />
     </footer>
 
   </div>
 </template>
 
 <script lang="ts">
-import LinksMenu from "@/components/LoggedIn/Navigation/Footer/components/LinksMenu/LinksMenu.vue";
-import Copyright from "@/components/LoggedIn/Navigation/Footer/components/Copyright.vue";
+import LinksMenu  from "@/components/LoggedIn/Navigation/Footer/components/LinksMenu/LinksMenu.vue";
+import Copyright  from "@/components/LoggedIn/Navigation/Footer/components/Copyright.vue";
+import GithubRepo from "@/components/LoggedIn/Navigation/Footer/components/GithubRepo.vue";
+
+import DemoAwareMixin from "@/mixins/Awarness/DemoAwareMixin.vue";
 
 export default {
   components: {
     LinksMenu,
-    Copyright
-  }
+    Copyright,
+    GithubRepo
+  },
+  mixins: [
+    DemoAwareMixin
+  ]
 }
 </script>
 

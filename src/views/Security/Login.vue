@@ -109,6 +109,15 @@
             >{{ $t('login.texts.remindPassword') }}</a></span>
           </div>
 
+          <!-- Github repo -->
+          <div
+              class="mt-1"
+              v-if="isDemo"
+          >
+            <span class="text-secondary mr-1">{{ $t('login.texts.githubRepo.label') }}:</span>
+            <a href="https://github.com/Volmarg/voltigo-frontend" class="link" target="_blank">{{$t('login.texts.githubRepo.clickText')}}</a>
+          </div>
+
         </div>
       </div>
     </div>
@@ -121,6 +130,7 @@
 </template>
 
 <script lang="ts">
+import GitHub                from "@/components/Ui/Icons/Svg/GitHub.vue";
 import SymfonyRoutes         from "@/router/SymfonyRoutes";
 import LocalStorageService   from "@/scripts/Core/Services/Storage/LocalStorageService";
 import StringTypeProcessor   from "@/scripts/Core/Services/TypesProcessors/StringTypeProcessor";
@@ -132,6 +142,7 @@ import UserController        from "@/scripts/Core/Controller/UserController";
 import {systemDisabledStore} from "@/scripts/Vue/Store/SystemDisabledState";
 
 import PublicFolderAccessTokenMixin from "@/mixins/System/PublicFolderAccessTokenMixin.vue";
+import DemoAwareMixin               from "@/mixins/Awarness/DemoAwareMixin.vue";
 
 import MediumButtonWithIcon from "@/components/Navigation/Button/MediumButtonWithIcon.vue";
 import VueInput             from "@/components/Form/Input.vue";
@@ -184,12 +195,14 @@ export default {
   mixins: [
     PublicFolderAccessTokenMixin,
     VuelidateHandler,
+    DemoAwareMixin,
   ],
   components: {
     "vue-input"             : VueInput,
     "asterisk-required"     : AsteriskRequired,
     "remind-password-modal" : RemindPasswordModal,
-    MediumButtonWithIcon
+    MediumButtonWithIcon,
+    GitHub
   },
   methods: {
     /**
