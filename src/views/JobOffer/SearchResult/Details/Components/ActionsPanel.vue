@@ -2,7 +2,10 @@
   <container class="mb-4">
     <div class="flex justify-between align-self-center flex-col sm:flex-row gap-4 sm:gap-0">
       <div class="flex flex-col sm:flex-row gap-4">
-        <div class="flex justify-center flex-col">
+        <div
+            class="flex justify-center flex-col"
+            v-if="!isDemo"
+        >
           <button-rounded :text="getToggleAllOffersText"
                           @click="onToggleAllOffersClick"
                           button-extra-classes="h-full pt-3 pb-3 sm:pb-0 sm:pt-0"
@@ -32,6 +35,8 @@ import ButtonRounded from "@/components/Navigation/Button/ButtonRounded.vue";
 import Search        from "@/views/JobOffer/SearchResult/Details/Components/ActionsPanel/Search.vue";
 import GetAsCsv      from "@/views/JobOffer/SearchResult/Details/Components/ActionsPanel/GetAsCsv.vue";
 
+import DemoAwareMixin from "@/mixins/Awarness/DemoAwareMixin.vue";
+
 import {ComponentData} from "@/scripts/Vue/Types/Components/types";
 
 export default {
@@ -54,6 +59,9 @@ export default {
   emits: [
     'search-changed',
     'toggle-all-visible-offers-selection'
+  ],
+  mixins: [
+    DemoAwareMixin
   ],
   components: {
     ButtonRounded,
