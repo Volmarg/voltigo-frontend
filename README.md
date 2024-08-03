@@ -47,6 +47,7 @@ Using any projects for personal gain is <b>STRICTLY FORBIDDEN</b>, You can howev
 - **Url**: http://voltigo.pl/
 - **Login**: `demo-user@voltigo.pl`
 - **Password**: `demo`
+- **Info**: demo runs on slow server, thus some things take a while 
 - **Other**:
   - **MessageHub** 
     - **Url**: http://message-hub.voltigo.pl/login
